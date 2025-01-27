@@ -1,0 +1,125 @@
+[24-Dec-2023 10:48:55 UTC] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1) : eval()'d code on line 1
+[06-Jan-2024 09:17:44 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 09:17:50 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 13:43:46 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 13:43:49 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 13:43:51 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 15:35:52 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Jan-2024 18:52:34 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[06-Feb-2024 20:58:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function str_ronfr64_qrt13() in /home/vivicorp/vivi.vivicorp.net/routes/file.php:29
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#1 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php on line 29
+[07-Mar-2024 17:28:17 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[07-Mar-2024 17:28:26 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[08-Mar-2024 08:06:24 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[08-Mar-2024 08:06:27 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[11-Mar-2024 23:00:48 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[11-Mar-2024 23:00:50 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[11-Mar-2024 23:00:53 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[12-Mar-2024 07:37:35 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[12-Mar-2024 07:37:41 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1
+[12-Mar-2024 20:10:36 UTC] PHP Fatal error:  Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code:1
+Stack trace:
+#0 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code(1): fclose()
+#1 /home/vivicorp/vivi.vivicorp.net/routes/file.php(29): eval()
+#2 /home/vivicorp/vivi.vivicorp.net/routes/file.php(32): clnt()
+#3 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/routes/file.php(29) : eval()'d code on line 1

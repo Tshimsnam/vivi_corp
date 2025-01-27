@@ -1,0 +1,12 @@
+[13-Jun-2024 22:05:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/vivicorp/vivi.vivicorp.net/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/config/database.php on line 18
+[14-Aug-2024 06:23:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/vivicorp/vivi.vivicorp.net/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/config/database.php on line 18
+[14-Oct-2024 11:20:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/vivicorp/vivi.vivicorp.net/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/vivicorp/vivi.vivicorp.net/config/database.php on line 18
