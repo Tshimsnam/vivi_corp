@@ -3,7 +3,7 @@
 @section('content')
     @include('user.partials.carrousel')
 
-    @include('user.partials.apercu')
+    {{-- @include('user.partials.apercu') --}}
 
     @include('user.partials.about')
 
@@ -15,7 +15,7 @@
 
     @include('user.partials.commentaire')
 
-    @include('user.partials.team')
+    {{-- @include('user.partials.team') --}}
 
     @include('user.partials.partenaire')
 @endsection
