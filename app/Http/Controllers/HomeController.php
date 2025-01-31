@@ -52,6 +52,15 @@ class HomeController extends Controller
         return view('user.service', compact('services', 'partenaires', 'testimonials', 'about'));
     }
 
+    public function gallery()
+    {
+        $about = About::latest()->first();
+        $services = Service::all();
+
+        $partenaires = Partenaire::all();
+        return view('user.gallery', compact('partenaires', 'about', 'services'));
+    }
+
     public function contact()
     {
         $about = About::latest()->first();

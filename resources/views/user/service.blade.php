@@ -17,5 +17,4 @@
 
     @include('user.partials.commentaire')
 
-    @include('user.partials.partenaire')
 @endsection

@@ -71,7 +71,7 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Copyright 2023 Victoria Corporation</a> • Tous droits réservés 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Copyright 2023 Victoria Corporation</a> • Tous droits réservés
                         <a class="border-bottom" href="https://allprime.org/" target="_blank">Allprime</a>
                     </div>
                 </div>

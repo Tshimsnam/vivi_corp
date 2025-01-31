@@ -17,5 +17,4 @@
 
     {{-- @include('user.partials.team') --}}
 
-    @include('user.partials.partenaire')
 @endsection
