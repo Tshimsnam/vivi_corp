@@ -40,5 +40,6 @@ Route::middleware([
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/services', [HomeController::class, 'service'])->name('services');
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/Apropos', [HomeController::class, 'apropos'])->name('apropos');

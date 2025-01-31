@@ -9,7 +9,7 @@
 
     @include('user.partials.features')
 
-    @include('user.partials.service')
+    {{-- @include('user.partials.service') --}}
 
     @include('user.partials.devis')
 
@@ -17,5 +17,4 @@
 
     {{-- @include('user.partials.team') --}}
 
-    @include('user.partials.partenaire')
 @endsection

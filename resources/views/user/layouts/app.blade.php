@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>{{ env('APP_NAME') }}</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="victoria corporation" name="keywords">
+    <meta content="victoria corporation" name="description">
 
     <!-- Favicon -->
     <link rel="icon" href="{{asset('vivicorp/img/vavicon.png')}}" type="image/x-icon">
@@ -39,7 +39,7 @@
     <!-- Spinner End -->
 
 
-    @include('user.layouts.topbar')
+    {{-- @include('user.layouts.topbar') --}}
 
 
     <!-- Navbar & Carousel Start -->
@@ -48,7 +48,7 @@
     </div>
     <!-- Navbar & Carousel End -->
     @yield('content')
-    
+
     <!-- Main Footer -->
     @include('user.layouts.footer')
 

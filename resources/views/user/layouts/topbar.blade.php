@@ -1,4 +1,4 @@
-    <!-- Topbar Start -->
+    {{-- <!-- Topbar Start -->
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
@@ -19,4 +19,4 @@
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+    <!-- Topbar End --> --}}

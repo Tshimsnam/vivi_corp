@@ -14,6 +14,4 @@
 
     @include('user.partials.contact')
 
-
-    @include('user.partials.partenaire')
 @endsection
