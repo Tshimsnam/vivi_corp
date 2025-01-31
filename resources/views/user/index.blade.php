@@ -9,7 +9,7 @@
 
     @include('user.partials.features')
 
-    @include('user.partials.service')
+    {{-- @include('user.partials.service') --}}
 
     @include('user.partials.devis')
 

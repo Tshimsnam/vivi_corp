@@ -182,7 +182,7 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1);
         z-index: 999;
     }
-    
+
     .sticky-top.navbar-dark {
         position: fixed;
         background: #FFFFFF;
@@ -281,7 +281,6 @@ h6,
     -webkit-animation: section-title-run 5s infinite linear;
     animation: section-title-run 5s infinite linear;
 }
-
 .section-title.section-title-sm::after {
     width: 4px;
     height: 3px;
