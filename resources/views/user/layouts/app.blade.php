@@ -29,6 +29,74 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('vivicorp/css/style.css') }}" rel="stylesheet">
+    <style>
+      
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0 20px;
+            background-color: #f8f9fa;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+        }
+        .pagination {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .pagination button {
+            margin: 0 5px;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .pagination button:disabled {
+            background-color: #ccc;
+        }
+        @media (max-width: 600px) {
+            .pagination a {
+                padding: 6px 10px; 
+            }
+            .gallery {
+        grid-template-columns: 1fr; 
+    }
+        }
+    </style>
 </head>
 
 <body>
