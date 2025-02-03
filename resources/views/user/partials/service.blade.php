@@ -7,9 +7,9 @@
         <div class="row g-5 ">
             @foreach ($services as $service)
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div <div class="service-item bg-light shadow-lg p-4 d-flex flex-column align-items-center justify-content-center text-center" style="border-radius: 18px;">
+                <div class="service-item bg-black shadow-lg p-4 d-flex flex-column align-items-center justify-content-center text-center" style="border-radius: 18px;">
                     <div class="service-icon bg-primary rounded-full p-4 mb-3">
-                        <i class="{{$service->icon}} text-white text-3xl"></i>
+                        <i class="{{$service->icon}} text-white text-1xl"></i>
                     </div>
                     <h4 class="mb-3">{{$service->title}} </h4>
                     <p class="m-0 text-justify"> {{$service->content}} </p>
