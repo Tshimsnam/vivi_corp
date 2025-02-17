@@ -34,20 +34,25 @@ class ServiceController extends Controller
         $service = new Service();
         // Validation des données soumises par le formulaire
         $validatedData = $request->validate([
-            'icon' => 'required|string',
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'title' => 'required|string',
             'content' => 'required|string',
         ]);
 
+         // Traiter l'image téléversée
+         if ($request->hasFile('image')) {
+            $imagePath = $request->file('image')->store('services', 'public'); // Enregistre l'image dans le dossier `storage/app/public/services`
+        } else {
+            $imagePath = null;
+        }
         // Création d'une nouvelle instance du modèle avec les données validées
-        $service->icon = $request->input('icon');
+        $service->$imagePath = $request->input('image');
         $service->title = $request->input('title');
         $service->content = $request->input('content');
-
         $service->save();
 
         // Redirection vers la page de confirmation
-        return redirect('services')->with('success', 'Entry has been added successfully.');
+        return redirect('services')->with('success', 'Service créé avec succès.');
     }
 
     /**

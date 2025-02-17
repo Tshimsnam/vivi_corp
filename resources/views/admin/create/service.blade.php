@@ -10,22 +10,22 @@
 
     <form method="POST" action="{{route('services.store')}}">
       @csrf
-  
+
       <div>
-          <label for="icon">Icon:</label>
+          <label for="icon">image:</label>
           <input type="text" id="icon" name="icon" required>
       </div>
-  
+
       <div>
           <label for="title">Title:</label>
           <input type="text" id="title" name="title" required>
       </div>
-  
+
       <div>
           <label for="content">Content:</label>
           <textarea id="content" name="content" required></textarea>
       </div>
-  
+
       <button type="submit">Submit</button>
   </form>
 <h1>Hello, world!</h1>

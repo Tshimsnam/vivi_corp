@@ -3,9 +3,9 @@
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 p-4">
                         <a href="{{route('index')}}" class="navbar-brand p-0">
-                            <img src="{{asset('vivicorp/img/logo2prime.png')}}" alt="Logo de l'entreprise" class="logo">
+                            <img src="{{asset('vivicorp/img/logo2prime.png')}}" alt="Logo de l'entreprise" class="logo w-100">
                         </a>
                         <p class="mt-3 mb-4"></p>
                     </div>
@@ -17,19 +17,19 @@
                                 <h4 class="text-light mb-0">Prendre contact</h4>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <i class="bi bi-geo-alt text-danger me-2"></i>
                                 <p class="mb-0">08, Avenue du commerce/Gombe</p>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <i class="bi bi-envelope-open text-danger me-2"></i>
                                 <p class="mb-0">Info@vivicorp.org</p>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <i class="bi bi-telephone text-danger me-2"></i>
                                 <p class="mb-0">+243 {{$about->number}}</p>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <i class="bi bi-telephone text-danger me-2"></i>
                                 <p class="mb-0">+243 858282454</p>
                             </div>
                             <div class="d-flex mt-4">

@@ -15,7 +15,7 @@ Listes des aperçus
                     <table class="table table-striped">
                       <thead>
                         <tr>
-                          <th> icon </th>
+                          <th> image </th>
                           <th> Titre </th>
                           <th> contenu </th>
                           <th> Action </th>
@@ -25,7 +25,7 @@ Listes des aperçus
                         @foreach ($services as $service)
                         <tr>
                           <td>
-                            {{$service->icon}}
+                            {{$service->image}}
                           </td>
                           <td>
                             {{$service->title}}
@@ -51,11 +51,11 @@ Listes des aperçus
                                 @method('DELETE')
                                     <a class="btn btn-danger btn-sm" href="{{ route('services.destroy', $service->id) }}" onclick="supprimer(event)" item="Voulez-vous supprimer l'utilisateur {{ $service->title }}" data-toggle="modal" data-target="#supprimer">
                                         <i class=" mdi mdi-delete-forever">
-                                        </i>												
+                                        </i>
                                     </a>
                             </form>
                         </td>
-                        </tr>  
+                        </tr>
                         @endforeach
                       </tbody>
                     </table>
@@ -82,8 +82,8 @@ Listes des aperçus
             textDelete.innerHTML = a.getAttribute('item') + " ?";
 
             let titleDelete = document.getElementById('titleDelete');
-            titleDelete.innerHTML = "Suppression";           
-            
+            titleDelete.innerHTML = "Suppression";
+
         }
     </script>
 @endsection

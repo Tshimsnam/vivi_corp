@@ -13,7 +13,7 @@
 
     @include('user.partials.devis')
 
-    @include('user.partials.commentaire')
+    {{-- @include('user.partials.commentaire') --}}
 
     {{-- @include('user.partials.team') --}}
 

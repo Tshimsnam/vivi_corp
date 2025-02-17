@@ -15,6 +15,4 @@
     @include('user.partials.service')
 
 
-    @include('user.partials.commentaire')
-
 @endsection
