@@ -11,17 +11,5 @@
         </div>
     </div>
 </div>
-
-<div class="text-center py-8">
-    <h3 class="text-4xl font-bold text-black uppercase tracking-wider animate-pulse">
-      Galerie de photos
-    </h3>
-    <p class="mt-2 text-lg text-gray-400 font-light">
-      Découvrez notre collection d'images exceptionnelles.
-    </p>
-    <div>
-        
-    </div>
-  </div>
     @include('user.partials.gallery')
 @endsection
